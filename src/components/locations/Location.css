@@ -1,0 +1,14 @@
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.location {
+    background-color: rgb(192, 83, 174);
+    border: 2px solid rgb(192, 83, 174);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+}

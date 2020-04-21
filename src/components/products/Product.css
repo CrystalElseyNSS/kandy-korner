@@ -1,0 +1,14 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.product {
+    background-color: rgb(65, 177, 130);
+    border: 1px solid rgb(65, 177, 130);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    width: 200px;
+}
