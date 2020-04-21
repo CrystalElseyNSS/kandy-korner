@@ -1,4 +1,5 @@
 import React from "react"
+import "./KandyKorner.css"
 
 import { LocationProvider } from "./locations/LocationProvider"
 import LocationList from "./locations/LocationList"
@@ -8,25 +9,14 @@ import { ProductTypeProvider } from "./products/ProductTypeProvider"
 
 export default () => (
     <>
-        <h2>Kandy Korner</h2>
-        <small>Life is short: Eat your sweeties!</small>
-
-        <address>
-            <div>Visit Us at our East Nashville location</div>
-            <div>500 Woodland Street</div>
-        </address>
-
-        <address>
-            <div>Visit Us at our West Nashville location</div>
-            <div>3600 Charlotte Ave</div>
-        </address>
-
-        <h2>Locations</h2>
+        <h2 className="pageHeader">🍬 🍬 🍬 Kandy Korner 🍬 🍬 🍬</h2>
+        
+        <h3 className="sectionHeader">Locations</h3>
             <LocationProvider>
                 <LocationList />
             </LocationProvider>
         
-        <h2>Products</h2>
+        <h3 className="sectionHeader">Products</h3>
             <ProductProvider>
                 <ProductTypeProvider>
                     <ProductList />      
