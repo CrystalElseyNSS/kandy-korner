@@ -1,17 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 .pageHeader {
     color: rgb(65, 177, 130);
     font-size: 60px;
 }
 
-.sectionHeader {
-    background-color: lightgray;
-    border: 2px solid rgb(192, 83, 174);
-    color: rgb(192, 83, 174);
-    font-size: 36px;
-  }
-
   body {
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Montserrat', sans-serif;
   }
